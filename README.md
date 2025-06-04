@@ -29,6 +29,8 @@ matplotlib
 seaborn 
 plotly
 
+---
+
 ## 📈 Visualizations & Analysis
 
 ### 1. 📉 Line Chart – Anime Ratings Over Index
