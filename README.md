@@ -29,57 +29,43 @@ matplotlib
 seaborn 
 plotly
 
-📈 Visualizations & Analysis
-1. 📉 Line Chart - Anime Ratings Over Index
+## 📈 Visualizations & Analysis
 
-    Goal: Identify overall trends in anime ratings.
+### 1. 📉 Line Chart – Anime Ratings Over Index
 
-    Insight: View how ratings change across the dataset.
+- **Goal**: Identify overall trends in anime ratings.
+- **Insight**: Observe how ratings fluctuate throughout the dataset.
+- **Suggestions**:
+  - Add a horizontal line representing the average rating.
+  - Highlight exceptionally high or low-rated titles.
 
-    Enhancement Ideas:
+### 2. 📊 Bar Chart – Average Rating by Genre
 
-        Add a line for the average rating.
+- **Goal**: Compare average ratings across different genres.
+- **Insight**: Identify genres that consistently receive high or low ratings.
+- **Suggestions**:
+  - Sort genres alphabetically or by number of entries for varied perspectives.
 
-        Label top or bottom rated titles.
+### 3. ⚫ Scatter Plot – Rating vs. Number of Members
 
-2. 📊 Bar Chart - Average Rating by Genre
+- **Goal**: Analyze the relationship between anime ratings and popularity.
+- **Insight**: Understand how highly rated titles align with user engagement.
+- **Suggestions**:
+  - Use color to differentiate between anime types (TV, Movie, OVA).
 
-    Goal: Compare average ratings across genres.
+### 4. 🌡️ Heatmap – Ratings by Type and Genre
 
-    Insight: Discover which genres tend to receive higher ratings.
+- **Goal**: Examine how anime types and genres affect average ratings.
+- **Insight**: Detect combinations of type and genre that yield higher or lower ratings.
+- **Suggestions**:
+  - Include annotations to show exact values.
+  - Parse multi-genre entries for improved accuracy.
 
-    Enhancement Ideas:
+---
 
-        Sort genres by anime count or alphabetically for different perspectives.
+## 🛠️ Improvements & Next Steps
 
-3. ⚫ Scatter Plot - Rating vs. Number of Members
-
-    Goal: Analyze the correlation between user ratings and popularity.
-
-    Insight: Visualize how rating influences viewership (or vice versa).
-
-    Enhancement Ideas:
-
-        Add color coding based on type (TV, Movie, OVA).
-
-4. 🌡️ Heatmap - Ratings by Type and Genre
-
-    Goal: Examine how anime type and genre affect ratings.
-
-    Insight: Pinpoint genre-type combinations with highest or lowest ratings.
-
-    Enhancement Ideas:
-
-        Add annotations for exact values.
-
-        Use better genre parsing to handle multi-genre entries.
-
-🛠️ Improvements & Next Steps
-
-    Clean and split multi-genre values into separate rows or categories.
-
-    Handle missing ratings (1.9% of dataset).
-
-    Normalize episodes data to numerical values for deeper analysis.
-
-    Add interactive visualizations with Plotly or Dash.
+- Split multi-genre entries into individual categories.
+- Handle missing ratings (~1.9% of entries).
+- Normalize episode counts for consistency.
+- Integrate interactive visualizations using Plotly or Dash.
